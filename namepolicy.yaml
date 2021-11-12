@@ -2,7 +2,7 @@ apiVersion: kyverno.io/v1
 kind: Policy
 metadata:
   name: add-ndots-nspolicies
-  namespace: testnamespaces
+  namespace: testing
   annotations:
     policies.kyverno.io/title: Add ndots
     policies.kyverno.io/category: Sample
