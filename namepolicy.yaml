@@ -13,6 +13,7 @@ metadata:
       This policy mutates all Pods to add the ndots option with a value of 1.
 spec:
   background: false
+  validationFailureAction: enforce
   rules:
   - name: add-ndots
     match:
